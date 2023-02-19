@@ -1,0 +1,25 @@
+.home {
+    background-image: linear-gradient(to top, white ,rgba(255, 255, 255, 0)), url(white-cube-pattern-4k-bu.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+@media (max-width: 575.98px) {
+    .text-truncate {
+        max-width: 100px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .text-truncate {
+        max-width: 300px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .text-truncate {
+        max-width: 500px;
+    }
+}
+@media (min-width: 992px)  {
+    .text-truncate {
+        max-width: 300px;
+    }
+}
